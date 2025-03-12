@@ -1,0 +1,24 @@
+{
+  "work_experience": [
+    {
+      "company": "Empresa X",
+      "role": "Desenvolvedor Full Stack",
+      "period": "2023 - Presente",
+      "description": "Atuo no desenvolvimento de aplicações web usando React, Node.js e bancos de dados SQL."
+    },
+    {
+      "company": "Empresa Y",
+      "role": "Consultor SAP ABAP Jr.",
+      "period": "2022 - 2023",
+      "description": "Desenvolvimento de relatórios ALV e customizações em SAP HCM."
+    }
+  ],
+  "academic_experience": [
+    {
+      "institution": "UNICAP",
+      "course": "Sistemas para Internet",
+      "period": "2021 - Presente",
+      "description": "Curso superior focado em desenvolvimento web, banco de dados e arquitetura de software."
+    }
+  ]
+}
