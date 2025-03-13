@@ -1,0 +1,47 @@
+footer {
+  background-color: var(--bg-color-brighter);
+  color: var(--font-secondary-color);
+  margin-top: auto;
+  padding: 5rem 0;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.contact-box p {
+  font-weight: 200;
+  line-height: 1.5rem;
+}
+
+.contact-box__title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--font-primary-color);
+
+  margin-bottom: 3rem;
+}
+
+.contact-box img {
+  min-width: 1.5rem;
+  height: auto;
+}
+
+.email-info {
+  gap: 0.5rem;
+  padding: auto;
+  margin-top: 2rem;
+
+  text-decoration: none;
+  color: var(--font-primary-color);
+}
+
+.email-info:hover {
+  color: var(--font-secondary-color);
+}
+
+.email-info p {
+  font-weight: 600;
+}
