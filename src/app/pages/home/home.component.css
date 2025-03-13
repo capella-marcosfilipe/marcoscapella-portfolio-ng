@@ -26,6 +26,7 @@
   font-weight: 800;
   line-height: 63.357px;
   color: var(--font-primary-color);
+  text-align: center;
 }
 
 .highlight {
