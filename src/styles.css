@@ -28,18 +28,6 @@ body {
   display: flex;
 }
 
-.about-it {
-  background: linear-gradient(116deg, #ff8660 71.79%, #9a33ff 95.51%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: Poppins;
-  font-size: 55px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 63.357px;
-}
-
 .projects {
   background: linear-gradient(180deg, #ff8660 0%, #d5491d 100%);
   background-clip: text;
