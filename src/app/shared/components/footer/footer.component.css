@@ -45,3 +45,17 @@ footer {
 .email-info p {
   font-weight: 600;
 }
+
+.credit-section {
+  margin-top: 4rem;
+}
+
+.credit {
+  font-size: 0.8rem;
+}
+
+.credit a {
+  text-decoration: none;
+  color: var(--font-primary-color);
+  font-weight: 400;
+}

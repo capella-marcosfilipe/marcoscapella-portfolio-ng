@@ -1,0 +1,27 @@
+.button {
+  min-width: 12.5rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.filled {
+  background-color: var(--font-primary-color);
+  color: var(--bg-color);
+}
+
+.filled:hover {
+  background-color: var(--font-secondary-color);
+}
+
+.outline {
+  color: var(--font-primary-color);
+  background-color: transparent;
+  border: 3px solid var(--font-primary-color);
+}
+
+.outline:hover {
+  color: var(--font-secondary-color);
+  border-color: var(--font-secondary-color);
+}

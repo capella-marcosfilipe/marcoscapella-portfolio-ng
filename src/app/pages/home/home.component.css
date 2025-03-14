@@ -45,3 +45,37 @@ p {
   line-height: 1.5rem;
   text-align: center;
 }
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  justify-items: center;
+  margin-top: 2.5rem;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2.5rem;
+  align-items: center;
+}
+
+.stack__title {
+  font-weight: 500;
+  font-size: 1.25rem;
+  letter-spacing: 0.2rem;
+}
+
+.stack__icons {
+  display: flex;
+  gap: 3.5rem;
+}
+
+.stack__icons__item {
+  filter: invert(35%) sepia(0%) saturate(1510%) hue-rotate(141deg)
+    brightness(97%) contrast(96%);
+  width: 48px;
+  height: auto;
+}
