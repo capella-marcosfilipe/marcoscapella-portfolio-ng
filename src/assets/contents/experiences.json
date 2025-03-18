@@ -4,30 +4,35 @@
       "company": "Ferreira Costa",
       "role": "Resident Student - Porto Digital",
       "period": "mar 202 - now",
-      "description": "Started mentoring with Ferreira Costa's staff."
+      "description": "Part of the Tech Residency program. Going through a NodeJS course in Rocketseat programming school. Started being mentored by Ferreira Costa's staff."
     },
     {
       "company": "BEG Inovação",
       "role": "Resident Student - Porto Digital",
       "period": "sep 2024 - dec 2024",
-      "description": "Learned no-code with Bubble.io."
+      "description": "Part of the Tech Residency program. Completed a JavaScript course training in Alura programming school. Learned no-code with Bubble.io."
     }
   ],
   "academic_experience": [
     {
-      "institution": "Catholic University of Pernambuco",
-      "course": "Technologist Undergraduate in Internet Systems",
-      "period": "Feb 2024 - Jun 2026"
-    },
-    {
-      "institution": "Catholic University of Pernambuco",
-      "course": "Undergraduate Research",
+      "institution": "Catholic University of Pernambuco, Recife, Brazil",
+      "course": "Undergraduate Research in Assistive Technologies",
       "period": "Aug 2024 - now"
     },
     {
-      "institution": "Porto Digital",
+      "institution": "Porto Digital, Recife, Brazil",
       "course": "Tech Residency",
       "period": "Apr 2024 - now"
+    },
+    {
+      "institution": "School of Technology and Communication of the Catholic University of Pernambuco, Recife, Brazil",
+      "course": "Undergraduate degree in Internet Systems",
+      "period": "Feb 2024 - Jun 2026"
+    },
+    {
+      "institution": "Center of Juridical Sciences of the Catholic University of Pernambuco, Recife, Brazil",
+      "course": "Bachelor of Law",
+      "period": "Feb 2013 - Dec 2017"
     }
   ]
 }
