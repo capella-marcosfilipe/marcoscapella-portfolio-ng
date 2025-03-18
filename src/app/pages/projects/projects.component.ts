@@ -17,5 +17,7 @@ interface Project {
   styleUrl: './projects.component.css',
 })
 export class ProjectsComponent {
+  thumbnailsFolder: string = '../../../../assets/images/';
+
   projects: Project[] = projectsData.projects;
 }

@@ -5,7 +5,7 @@
       *ngFor="let project of projects"
       [title]="project.title"
       [link]="project.link"
-      [thumbnail]="project.thumbnail"
+      [thumbnail]="thumbnailsFolder + project.thumbnail"
     >
     </app-project-card>
   </div>
