@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "title": "Sistema de Gestão de Tarefas",
+      "description": "Aplicação full stack para gerenciamento de tarefas com React, Node.js e MongoDB.",
+      "techs": ["React", "Node.js", "MongoDB"],
+      "link": "https://github.com/seu-usuario/tarefas",
+      "thumbnail": ""
+    },
+    {
+      "title": "Dashboard de Análise de Dados",
+      "description": "Dashboard interativo para análise de dados de vendas usando Power BI.",
+      "techs": ["Power BI", "SQL"],
+      "link": "https://github.com/seu-usuario/dashboard",
+      "thumbnail": ""
+    },
+    {
+      "title": "Dashboard de Análise de Dados",
+      "description": "Dashboard interativo para análise de dados de vendas usando Power BI.",
+      "techs": ["Power BI", "SQL"],
+      "link": "https://github.com/seu-usuario/dashboard",
+      "thumbnail": ""
+    },
+    {
+      "title": "Dashboard de Análise de Dados",
+      "description": "Dashboard interativo para análise de dados de vendas usando Power BI.",
+      "techs": ["Power BI", "SQL"],
+      "link": "https://github.com/seu-usuario/dashboard",
+      "thumbnail": ""
+    }
+  ]
+}
