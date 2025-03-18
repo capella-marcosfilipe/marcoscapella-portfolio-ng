@@ -8,25 +8,60 @@
       "thumbnail": "mywebsitethumb.png"
     },
     {
-      "title": "Dashboard de Análise de Dados",
-      "description": "Dashboard interativo para análise de dados de vendas usando Power BI.",
-      "techs": ["Power BI", "SQL"],
-      "link": "https://github.com/seu-usuario/dashboard",
+      "title": "Memoteca",
+      "description": "A wall of memos made in Angular",
+      "techs": ["Angular"],
+      "link": "https://github.com/capella-marcosfilipe/memoteca-angular",
+      "thumbnail": "memotecathumb.png"
+    },
+    {
+      "title": "Trip Planner",
+      "description": "Full-stack project in NodeJS and ReactJS for a trip planner originally developed by Rocketseat for NLW coding week.",
+      "techs": ["ReactJS", "NodeJS", "Prisma"],
+      "link": "https://github.com/capella-marcosfilipe/trip-planner",
       "thumbnail": ""
     },
     {
-      "title": "Dashboard de Análise de Dados",
-      "description": "Dashboard interativo para análise de dados de vendas usando Power BI.",
-      "techs": ["Power BI", "SQL"],
-      "link": "https://github.com/seu-usuario/dashboard",
+      "title": "Event Scheduler API",
+      "description": "A REST API for creating, scheduling and inviting to events",
+      "techs": ["Java", "Spring Boot", "REST API"],
+      "link": "https://github.com/capella-marcosfilipe/events-scheduler-api",
       "thumbnail": ""
     },
     {
-      "title": "Dashboard de Análise de Dados",
-      "description": "Dashboard interativo para análise de dados de vendas usando Power BI.",
-      "techs": ["Power BI", "SQL"],
-      "link": "https://github.com/seu-usuario/dashboard",
+      "title": "Spotify Dashboard",
+      "description": "A simple to use Spotify Dashboard",
+      "techs": ["JavaScript", "Bootstrap", "Back4App"],
+      "link": "https://github.com/capella-marcosfilipe/spotify-dashboard-ppw",
+      "thumbnail": "spotifydash.png"
+    },
+    {
+      "title": "Teacher Planner API",
+      "description": "API for a teacher planner on MongoDB.",
+      "techs": ["NodeJS", "MongoDB", "Mongoose", "REST API"],
+      "link": "https://github.com/capella-marcosfilipe/group-evolution-mongodb",
       "thumbnail": ""
+    },
+    {
+      "title": "Jobs Landing Page",
+      "description": "7 Days of Code is a daily challenge by Alura for their students to code a website in HTML and CSS",
+      "techs": ["HTML", "CSS"],
+      "link": "https://github.com/capella-marcosfilipe/jobs-landingpage-optimustech",
+      "thumbnail": "optimustechthumb.png"
+    },
+    {
+      "title": "Taylor Swift's TTPD",
+      "description": "What's the difference between the many versions of Taylor Swift's The Tortured Poets Departament? I set up this project to practice eventListeners and to organize info for fans.",
+      "techs": ["HTML", "CSS", "JavaScript"],
+      "link": "https://github.com/capella-marcosfilipe/ttpd-versionviewer",
+      "thumbnail": "ttpdthumb.png"
+    },
+    {
+      "title": "Healnet Landing page",
+      "description": "Landing page for medical services",
+      "techs": ["HTML", "CSS", "JavaScript"],
+      "link": "https://github.com/capella-marcosfilipe/ttpd-versionviewer",
+      "thumbnail": "healnetthumb.png"
     }
   ]
 }

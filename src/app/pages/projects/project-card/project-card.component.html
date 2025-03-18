@@ -1,6 +1,6 @@
 <a class="project-card" [href]="link">
   <div class="project-card__content">
-    <img [src]="thumbnail" [alt]="title + ' - thumbnail'" />
+    <img [src]="imageUrl" [alt]="title + ' - thumbnail'" />
     <div class="project-card__info">
       <div class="project-card__info__left">
         <span>CLICK HERE TO VISIT</span>
@@ -11,6 +11,11 @@
         src="view-arrow.png"
         alt="Linking arrow"
       />
+    </div>
+    <div class="project-card__techs">
+      <div class="project-card__techs__tag" *ngFor="let tech of techs">
+        {{ tech }}
+      </div>
     </div>
   </div>
 </a>

@@ -11,5 +11,14 @@ export class ProjectCardComponent {
 
   @Input() title: string = 'CODING PROJECT';
   @Input() link: string = '#';
-  @Input() thumbnail: string = this.thumbnailsFolder + 'miscthumb.png';
+  @Input() thumbnail: string = '';
+  @Input() techs: string[] = ['Web', 'Dev'];
+
+  defaultImage: string = this.thumbnailsFolder + 'default-backend.jpg';
+
+  get imageUrl(): string {
+    return this.thumbnail && this.thumbnail.trim() !== ''
+      ? this.thumbnailsFolder + this.thumbnail
+      : this.defaultImage;
+  }
 }

@@ -1,11 +1,12 @@
-<section class="content-width projects">
+<section class="projects">
   <h1 class="projects__title">PROJECTS</h1>
   <div class="projects__cards">
     <app-project-card
       *ngFor="let project of projects"
       [title]="project.title"
       [link]="project.link"
-      [thumbnail]="thumbnailsFolder + project.thumbnail"
+      [thumbnail]="project.thumbnail"
+      [techs]="project.techs"
     >
     </app-project-card>
   </div>
