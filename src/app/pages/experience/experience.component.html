@@ -1,3 +1,24 @@
-<section class="experience">
-  <h1 class="experience__title">EXPERIENCE</h1>
+<section class="content-width experience">
+  <h1 class="experience__title">WORK EXPERIENCE</h1>
+  <div class="work-experience">
+    <div class="work-experience__item" *ngFor="let exp of workExperience">
+      <div class="item__head">
+        <h2 class="experience__item__title">{{ exp.company }}</h2>
+        <p class="experience__item__period">{{ exp.period }}</p>
+      </div>
+      <p class="experience__item__role">{{ exp.role }}</p>
+      <p class="experience__item__description">{{ exp.description }}</p>
+    </div>
+  </div>
+
+  <h1 class="experience__title">ACADEMIC EXPERIENCE</h1>
+  <div class="academic-experience">
+    <div class="academic-experience__item" *ngFor="let exp of acadExperience">
+      <div class="item__head">
+        <h2 class="experience__item__title">{{ exp.course }}</h2>
+        <p class="experience__item__period">{{ exp.period }}</p>
+      </div>
+      <p class="experience__item__role">{{ exp.institution }}</p>
+    </div>
+  </div>
 </section>
