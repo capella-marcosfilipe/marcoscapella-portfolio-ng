@@ -7,7 +7,9 @@ import { Component, Input } from '@angular/core';
   styleUrl: './project-card.component.css',
 })
 export class ProjectCardComponent {
+  thumbnailsFolder: string = '../../../../assets/images/';
+
   @Input() title: string = 'CODING PROJECT';
   @Input() link: string = '#';
-  @Input() thumbnail: string = '../../../../assets/images/miscthumb.png';
+  @Input() thumbnail: string = this.thumbnailsFolder + 'miscthumb.png';
 }
