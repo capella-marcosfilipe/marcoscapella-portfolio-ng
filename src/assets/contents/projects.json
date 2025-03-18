@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "title": "Sistema de Gestão de Tarefas",
-      "description": "Aplicação full stack para gerenciamento de tarefas com React, Node.js e MongoDB.",
-      "techs": ["React", "Node.js", "MongoDB"],
-      "link": "https://github.com/seu-usuario/tarefas",
-      "thumbnail": ""
+      "title": "This portfolio website",
+      "description": "Portfolio website for a web developer",
+      "techs": ["Angular"],
+      "link": "https://marcoscapella.com.br",
+      "thumbnail": "mywebsitethumb.png"
     },
     {
       "title": "Dashboard de Análise de Dados",
