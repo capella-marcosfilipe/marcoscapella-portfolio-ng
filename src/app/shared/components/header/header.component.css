@@ -1,13 +1,12 @@
 header {
   background-color: var(--bg-color-brighter);
   padding: 2rem;
-  text-align: center;
 }
 
 nav {
   display: flex;
   justify-content: center;
-  text-align: center;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
@@ -22,4 +21,14 @@ nav a {
 
 nav a:hover {
   color: var(--font-secondary-color);
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    gap: 1rem;
+  }
+
+  nav a {
+    padding: 0;
+  }
 }

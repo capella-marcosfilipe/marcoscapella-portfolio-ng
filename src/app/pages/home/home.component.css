@@ -79,3 +79,11 @@ p {
   width: 48px;
   height: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+  }
+}
