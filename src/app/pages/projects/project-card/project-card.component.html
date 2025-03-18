@@ -1,1 +1,16 @@
-<p>project-card works!</p>
+<a class="project-card" [href]="link">
+  <div class="project-card__content">
+    <img [src]="thumbnail" [alt]="title + ' - thumbnail'" />
+    <div class="project-card__info">
+      <div class="project-card__info__left">
+        <span>CLICK HERE TO VISIT</span>
+        <h2 class="project-card__title">{{ title }}</h2>
+      </div>
+      <img
+        class="project-card__arrow"
+        src="view-arrow.png"
+        alt="Linking arrow"
+      />
+    </div>
+  </div>
+</a>
