@@ -8,6 +8,13 @@
       "thumbnail": "mywebsitethumb.png"
     },
     {
+      "title": "Star Wars Infosite",
+      "description": "A website organizing info about starships and films from the SWAPI",
+      "techs": ["Angular", "TailwindCSS", "Material Design"],
+      "link": "https://starwars-angular-material.vercel.app/home",
+      "thumbnail": "swapingthumb.png"
+    },
+    {
       "title": "Memoteca",
       "description": "A wall of memos made in Angular",
       "techs": ["Angular"],
@@ -32,7 +39,7 @@
       "title": "Spotify Dashboard",
       "description": "A simple to use Spotify Dashboard",
       "techs": ["JavaScript", "Bootstrap", "Back4App"],
-      "link": "https://github.com/capella-marcosfilipe/spotify-dashboard-ppw",
+      "link": "https://spotify-dashboard-ppw.vercel.app/",
       "thumbnail": "spotifydash.png"
     },
     {
@@ -53,14 +60,14 @@
       "title": "Taylor Swift's TTPD",
       "description": "What's the difference between the many versions of Taylor Swift's The Tortured Poets Departament? I set up this project to practice eventListeners and to organize info for fans.",
       "techs": ["HTML", "CSS", "JavaScript"],
-      "link": "https://github.com/capella-marcosfilipe/ttpd-versionviewer",
+      "link": "https://thearchivesofttpd.vercel.app/",
       "thumbnail": "ttpdthumb.png"
     },
     {
       "title": "Healnet Landing page",
       "description": "Landing page for medical services",
       "techs": ["HTML", "CSS", "JavaScript"],
-      "link": "https://github.com/capella-marcosfilipe/ttpd-versionviewer",
+      "link": "https://healnet-ipw.vercel.app/",
       "thumbnail": "healnetthumb.png"
     }
   ]
