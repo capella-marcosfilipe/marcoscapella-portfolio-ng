@@ -1,29 +1,31 @@
 {
-  "work_experience": [
+  "tech_residency": [
     {
-      "company": "Ferreira Costa",
-      "role": "Resident Student - Porto Digital",
+      "company": "FCxLabs - Ferreira Costa",
+      "role": "Resident Student",
       "period": "mar 202 - now",
-      "description": "Part of the Tech Residency program. Going through a NodeJS course in Rocketseat programming school. Started being mentored by Ferreira Costa's staff."
+      "description": "Going through a NodeJS course in Rocketseat programming school. Started being mentored by Ferreira Costa's DB Analyst in Oracle SQL."
     },
     {
       "company": "BEG Inovação",
-      "role": "Resident Student - Porto Digital",
+      "role": "Resident Student",
       "period": "sep 2024 - dec 2024",
-      "description": "Part of the Tech Residency program. Completed a JavaScript course training in Alura programming school. Learned no-code with Bubble.io."
+      "description": " Completed a JavaScript course training in Alura programming school. Learned no-code with Bubble.io."
     }
   ],
-  "academic_experience": [
+  "extracurriculum": [
     {
       "institution": "Catholic University of Pernambuco, Recife, Brazil",
-      "course": "Undergraduate Research in Assistive Technologies",
+      "activity": "Undergraduate Research in Assistive Technologies for e-health",
       "period": "Aug 2024 - now"
     },
     {
       "institution": "Porto Digital, Recife, Brazil",
-      "course": "Tech Residency",
+      "activity": "Tech Residency",
       "period": "Apr 2024 - now"
-    },
+    }    
+  ],
+  "education": [
     {
       "institution": "School of Technology and Communication of the Catholic University of Pernambuco, Recife, Brazil",
       "course": "Undergraduate degree in Internet Systems",
