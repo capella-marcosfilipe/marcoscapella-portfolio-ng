@@ -2,14 +2,20 @@ import { Component } from '@angular/core';
 
 import experienceData from '../../../assets/contents/experiences.json';
 
-interface WorkExperience {
+interface TechResidency {
   company: string;
   role: string;
   period: string;
   description: string;
 }
 
-interface AcadExperience {
+interface Extracurriculum {
+  institution: string;
+  activity: string;
+  period: string;
+}
+
+interface Education {
   institution: string;
   course: string;
   period: string;
@@ -22,6 +28,7 @@ interface AcadExperience {
   styleUrl: './experience.component.css',
 })
 export class ExperienceComponent {
-  workExperience: WorkExperience[] = experienceData.work_experience;
-  acadExperience: AcadExperience[] = experienceData.academic_experience;
+  education: Education[] = experienceData.education;
+  extracurriculum: Extracurriculum[] = experienceData.extracurriculum;
+  techResidency: TechResidency[] = experienceData.tech_residency;
 }
