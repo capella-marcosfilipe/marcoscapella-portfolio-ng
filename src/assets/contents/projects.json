@@ -8,6 +8,13 @@
       "thumbnail": "mywebsitethumb.png"
     },
     {
+      "title": "Blog REST API",
+      "description": "A REST API for simple webbloging. The backbone of my personal blog.",
+      "techs": ["Java", "Spring Boot", "PostgreSQL"],
+      "link": "https://github.com/capella-marcosfilipe/marcoscapella-blog-api-java",
+      "thumbnail": ""
+    },
+    {
       "title": "Star Wars Infosite",
       "description": "A website organizing info about starships and films from the SWAPI",
       "techs": ["Angular", "TailwindCSS", "Material Design"],
