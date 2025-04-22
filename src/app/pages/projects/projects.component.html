@@ -1,8 +1,15 @@
 <section class="projects">
   <h1 class="projects__title">PROJECTS</h1>
+  <div class="projects__search">
+    <input
+      type="text"
+      (keyup)="onSearch($event)"
+      placeholder="Browse my projects by stack"
+    />
+  </div>
   <div class="projects__cards">
     <app-project-card
-      *ngFor="let project of projects"
+      *ngFor="let project of filteredProjects"
       [title]="project.title"
       [link]="project.link"
       [thumbnail]="project.thumbnail"
