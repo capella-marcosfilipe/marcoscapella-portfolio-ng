@@ -10,14 +10,14 @@
     {
       "title": "RESTful API for an automotive e-commerce platform",
       "description": "A REST API for Autofacil, a university project for a ecofriendly e-commerce for second hand vehicles.",
-      "techs": ["Java", "Spring Boot"],
+      "techs": ["Java", "Spring Boot", "REST API"],
       "link": "https://github.com/capella-marcosfilipe/autofacil-api",
       "thumbnail": ""
     },
     {
       "title": "Blog REST API",
       "description": "A REST API for simple webbloging. The backbone of my personal blog.",
-      "techs": ["Java", "Spring Boot", "PostgreSQL"],
+      "techs": ["Java", "Spring Boot", "PostgreSQL", "REST API"],
       "link": "https://github.com/capella-marcosfilipe/marcoscapella-blog-api-java",
       "thumbnail": ""
     },
