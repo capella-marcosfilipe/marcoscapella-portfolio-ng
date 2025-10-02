@@ -1,5 +1,19 @@
 {
+  "professional_experience": [
+    {
+      "company": "UNICAP AI Center - Fundação Antônio Santos de Abranches (FASA)",
+      "role": "Full-Stack & AI Development Intern (Focus on Machine Learning and Computer Vision)",
+      "period": "Oct 2025 - up to now",
+      "description": "Contributing to the UNICAP AI Center as part of its first cohort of interns, focused on developing cutting-edge Artificial Intelligence solutions for institutional applications."
+    }
+  ],
   "tech_residency": [
+    {
+      "company": "BidWeb Security",
+      "role": "Resident Student",
+      "period": "Aug 2025 - Dec 2025",
+      "description": "Working on developing Orange Team Cybersecurity solutions."
+    },
     {
       "company": "FCx Labs - Ferreira Costa",
       "role": "Resident Student",
@@ -16,13 +30,18 @@
   "extracurriculum": [
     {
       "institution": "Catholic University of Pernambuco (UNICAP), Recife, Brazil",
+      "activity": "Teaching Assistant in Imperative Programming",
+      "period": "Aug 2025 - up to now"
+    },
+    {
+      "institution": "Catholic University of Pernambuco (UNICAP), Recife, Brazil",
       "activity": "Undergraduate Research in Assistive Technologies for e-health",
-      "period": "Aug 2024 - now"
+      "period": "Aug 2024 -up to  now"
     },
     {
       "institution": "Porto Digital, Recife, Brazil",
       "activity": "Tech Residency program",
-      "period": "Apr 2024 - now"
+      "period": "Apr 2024 - up to now"
     }
   ],
   "education": [

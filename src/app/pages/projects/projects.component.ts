@@ -7,6 +7,7 @@ interface Project {
   techs: string[];
   link: string;
   thumbnail: string;
+  ai_focus?: boolean;
 }
 
 @Component({
@@ -16,29 +17,49 @@ interface Project {
   styleUrl: './projects.component.css',
 })
 export class ProjectsComponent implements OnInit {
-  protected projects: Project[] = projectsData.projects;
+  protected allProjects: Project[] = projectsData.projects;
   protected filteredProjects: Project[] = [];
 
+  protected techFilters: string[] = ['All', 'AI', 'Angular', 'Java', 'Python'];
+  protected activeFilter: string = 'All';
+
   ngOnInit(): void {
-    this.filteredProjects = this.feedProjects();
+    // Sort main project list.
+    this.allProjects.sort((a, b) => {
+      if (a.ai_focus && !b.ai_focus) return -1;
+      if (!a.ai_focus && b.ai_focus) return 1;
+      return 0;
+    });
+
+    this.applyFilter('All');
   }
 
-  protected feedProjects(techsFilter: string[] = ['']): Project[] {
-    if (techsFilter.length === 0 || techsFilter[0].trim() === '') {
-      return this.projects;
-    }
+  applyFilter(tech: string): void {
+    this.activeFilter = tech;
 
-    return this.projects.filter((project) =>
-      techsFilter.some((filter) =>
-        project.techs.some((tech) =>
-          tech.toLowerCase().includes(filter.toLowerCase())
+    if (tech === 'All') {
+      this.filteredProjects = this.allProjects;
+    } else {
+      this.filteredProjects = this.allProjects.filter((project) =>
+        project.techs.some((t) =>
+          t.toLowerCase().includes(tech.toLowerCase())
         )
-      )
-    );
+      );
+    }
   }
 
   onSearch(event: Event): void {
     const input = event.target as HTMLInputElement;
-    this.filteredProjects = this.feedProjects([input.value]);
+    const searchTerm = input.value.toLowerCase();
+
+    this.applyFilter(this.activeFilter);
+
+    if (searchTerm.trim() !== '') {
+      this.filteredProjects = this.filteredProjects.filter((project) =>
+        project.techs.some((tech) =>
+          tech.toLowerCase().includes(searchTerm)
+        )
+      );
+    }
   }
 }

@@ -1,25 +1,41 @@
 {
   "projects": [
     {
+      "title": "Text Analyser with Named-Entity Recognition",
+      "description": "A full-stack project for analysing entities on a text given by the user.",
+      "techs": ["Python", "FastAPI", "Spacy", "AI", "REST API"],
+      "link": "https://github.com/capella-marcosfilipe/selecao-dev-fullstack-unicap",
+      "thumbnail": "",
+      "ai_focus": true
+    },
+    {
+      "title": "Kaggle's Titanic Competition",
+      "description": "A take on the popular Kaggle competition using Decision Trees.",
+      "techs": ["Python", "Scikit-learn", "Machine Learning", "Decision Tree", "EDA"],
+      "link": "https://github.com/capella-marcosfilipe/titanic_competition_decisiontree",
+      "thumbnail": ""
+    },
+    {
+      "title": "Frauded Transactions Detector with Decision Tree",
+      "description": "Working on identifying fraudes with a Decision Tree model.",
+      "techs": ["Python", "Scikit-learn", "Machine Learning", "Decision Tree", "EDA"],
+      "link": "https://github.com/capella-marcosfilipe/transacao_fraudes_decisiontree",
+      "thumbnail": ""
+    },
+    {
+      "title": "Chatbot with Google Gemini for Medical Triage",
+      "description": "A full-stack medical triage chatbot. This was developed as a proof of concept for a research project at the Catholic University of Pernambuco, combining a Python backend with a simple frontend.",
+      "techs": ["Python", "FastAPI", "Gemini", "AI", "REST API", "JavaScript"],
+      "link": "https://github.com/capella-marcosfilipe/chatbot-triagem-medica",
+      "thumbnail": "chatbotpibic2024.png",
+      "ai_focus": true
+    },
+    {
       "title": "This portfolio website",
       "description": "Portfolio website for a web developer",
       "techs": ["Angular"],
       "link": "https://github.com/capella-marcosfilipe/marcoscapella-portfolio-ng",
       "thumbnail": "mywebsitethumb.png"
-    },
-    {
-      "title": "Chatbot with Google Gemini for Medical Triage - Frontend",
-      "description": "Frontend for a medical triage chatbot. This was developed as a concept test for a research project presented at the Catholic University of Pernambuco.",
-      "techs": ["HTML", "CSS", "JavaScript"],
-      "link": "https://github.com/capella-marcosfilipe/chatbot-triagem-medica-front",
-      "thumbnail": "chatbotpibic2024.png"
-    },
-    {
-      "title": "Chatbot with Google Gemini for Medical Triage - Backend",
-      "description": "Backend for a medical triage chatbot. This was developed as a concept test for a research project presented at the Catholic University of Pernambuco.",
-      "techs": ["Python", "FastAPI", "Gemini", "AI", "REST API"],
-      "link": "https://github.com/capella-marcosfilipe/chatbot-triagem-medica",
-      "thumbnail": ""
     },
     {
       "title": "RESTful API for an automotive e-commerce platform",
