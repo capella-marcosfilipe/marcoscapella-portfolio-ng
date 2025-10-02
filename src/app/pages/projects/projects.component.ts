@@ -20,7 +20,7 @@ export class ProjectsComponent implements OnInit {
   protected allProjects: Project[] = projectsData.projects;
   protected filteredProjects: Project[] = [];
 
-  protected techFilters: string[] = ['All', 'AI', 'Angular', 'Java', 'Python'];
+  protected techFilters: string[] = ['All', 'AI', 'Machine Learning', 'Angular', 'Java', 'Python'];
   protected activeFilter: string = 'All';
   private searchTerm: string = '';
 
